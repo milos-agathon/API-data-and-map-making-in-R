@@ -22,6 +22,8 @@ library(gridExtra, quietly=T) #make grid
 library(giscoR, quietly=T) #shapefile of Europe
 library(classInt, quietly=T) #bins
 
+windowsFonts(georg = windowsFont('Georgia'))
+
 # 1. API
 #---------
 res <- GET("https://ghoapi.azureedge.net/api/Indicator")
