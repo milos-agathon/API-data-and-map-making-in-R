@@ -4,4 +4,4 @@ API are a buzzword in the programming world so this repo will show you how to us
 
 Check the full tutorial at 
 
-![alt text](https://github.com/milos-agathon/API-data-and-map-making-in-R/blob/main/traffic_deaths.png?raw=true)
+![alt text](https://github.com/milos-agathon/API-data-and-map-making-in-R/blob/main/traffic_deaths.jpg?raw=true)
