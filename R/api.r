@@ -83,8 +83,7 @@ b <- st_bbox(laeabb)
 
 c <- right_join(td, europe, by=c("ISO3"="ISO3_CODE")) %>%
      st_as_sf() %>%
-     st_transform(crs = crsLAEA) %>%
-     drop_na()
+     st_transform(crs = crsLAEA)
 
 # bins
 brk <- round(classIntervals(c$value, 
