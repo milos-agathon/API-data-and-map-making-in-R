@@ -40,6 +40,9 @@ rtd <- grep("road traffic death", data$IndicatorName, perl=T)
 sel_rows <- data[rtd,]
 sel_rows
 
+traffic_deaths <- GET("https://ghoapi.azureedge.net/api/RS_198")
+traffic_d <- fromJSON(rawToChar(traffic_deaths$content))
+
 td <- traffic_d$value
 head(td)
 
